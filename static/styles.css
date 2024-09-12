@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: lightcyan;
+  }
+  
+  h1 {
+    color: black;
+  }
+  
+  a {
+    color: lightskyblue;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 20px;
+  }
+  
+  form {
+    margin: 10px 0;
+  }
+  
+  button {
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+  }
+  .delete-button {
+    background-color: lightcoral;
+    color: white;
+  }
+  
+  .delete-button:hover {
+    background-color: red;
+  }
+  .create-button {
+    background-color: lightgreen;
+  }
+  .create-button:hover {
+    background-color: green;
+  }
+  .edit-button {
+    background-color: orange;
+  }
+  .edit-button:hover {
+    background-color: orangered;
+  }
+.create-page-body {
+    background-color: lightgreen;
+  }
+
+.edit-page-body {
+    background-color: lightpink;
+  }
