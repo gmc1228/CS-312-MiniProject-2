@@ -18,10 +18,13 @@
       <li>
         <h2><%= post.title %></h2>
         <p><%= post.content %></p>
+        <% if (post.dogImage) { %>
+          <img src="<%= post.dogImage %>" alt="Random Dog" style="max-width: 300px; max-height: 300px;">
+        <% } %>    
         <p><em>By <%= post.author %> on <%= post.date %></em></p>
         <a href="/edit/<%= post.id %>"><button class="edit-button">Edit</button></a> |
         <form action="/delete/<%= post.id %>" method="POST" style="display:inline;">
-          <button class="delete-button" type="submit">Delete</button>
+          <button class="delete-button" type="submit">Delete</button>  
         </form>
       </li>
     <% }) %>
